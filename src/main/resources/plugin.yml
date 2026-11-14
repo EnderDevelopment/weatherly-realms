@@ -1,0 +1,15 @@
+name: DynamicWeather
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+description: Dynamic rain, sandstorms, underwater distortion, and day-night sleep limits.
+commands:
+  dynamicweather:
+    description: Shows or reloads DynamicWeather settings.
+    usage: /dynamicweather [status|reload]
+    aliases: [dw]
+    permission: dynamicweather.admin
+permissions:
+  dynamicweather.admin:
+    description: Allows access to DynamicWeather administration commands.
+    default: op

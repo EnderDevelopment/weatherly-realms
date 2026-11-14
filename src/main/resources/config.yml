@@ -1,0 +1,18 @@
+# DynamicWeather settings
+rain-effects: true
+sandstorm-effects: true
+underwater-distortion: true
+sleep-restrictions: true
+# Ticks between ambient effect updates.
+effect-interval-ticks: 10
+# Maximum number of nearby players receiving each visual effect update.
+max-effect-players: 64
+# Sandstorms occur in dry overworld biomes when weather is clear.
+sandstorm-chance-percent: 18
+# Sleep is permitted only during this portion of the night.
+sleep-start-tick: 12500
+sleep-end-tick: 23000
+# Sound volume and particle counts are deliberately moderate.
+rain-particle-count: 8
+sandstorm-particle-count: 12
+underwater-particle-count: 5
